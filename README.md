@@ -45,7 +45,7 @@
 ### Exercício 2: Sistemas de Coordenadas 
 - Definição e visualização de sistemas de coordenadas
 - Diagrama de transformações entre referenciais
-![imagem2](imagens/imagem02.jpg)
+![imagem2](imagens/Imagem02.jpg)
 
 ### Exercício 3: Transformações Homogêneas 
 - Implementação de matrizes de transformação homogênea 2D
