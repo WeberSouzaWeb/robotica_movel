@@ -1,5 +1,5 @@
 '''
-<div style=\"text-align: center;\"><img src=\"Imagens/Logo.jpeg\" alt=\"Logo UFMG\" width=\"200\"/><br/><img src=\"Imagens/brasao.jpg\" alt=\"Brasão UFMG\" width=\"100\"/></div>
+<div style=\"text-align: center;\"><img src=\"TP2/Imagens/Logo.jpeg\" alt=\"Logo UFMG\" width=\"200\"/><br/><img src=\"TP2/Imagens/brasao.jpg\" alt=\"Brasão UFMG\" width=\"100\"/></div>
 
 <br/>
 
