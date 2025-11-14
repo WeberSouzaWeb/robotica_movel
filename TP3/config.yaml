@@ -1,0 +1,26 @@
+# Configurações da cena e do mapeamento
+coppeliasim:
+  host: "localhost"
+  port: 23000
+
+scene:
+  robot_base_candidates: ["/kobuki", "/Kobuki", "/Robot", "/Base"]
+  left_motor_candidates: ["/leftMotor", "/Kobuki/leftMotor", "/Kobuki/left_joint"]
+  right_motor_candidates: ["/rightMotor", "/Kobuki/rightMotor", "/Kobuki/right_joint"]
+  laser_candidates: ["/Hokuyo", "/fastHokuyo"]
+  hokuyo_angle_data: "hokuyo_angle_data"
+  hokuyo_range_data: "hokuyo_range_data"
+
+mapping:
+  world_bounds: [-5.0, 5.0, -5.0, 5.0]   # xmin, xmax, ymin, ymax (m)
+  p0: 0.5
+  p_occ: 0.7
+  p_free: 0.3
+  l_min: -4.0
+  l_max:  4.0
+
+navigation:
+  v_linear: 0.25           # m/s
+  v_angular: 0.8           # rad/s
+  min_obstacle_distance: 0.35  # m
+  frontier_recalc_period: 3.0  # s

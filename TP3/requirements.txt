@@ -1,0 +1,4 @@
+numpy
+matplotlib
+coppeliasim-zmqremoteapi-client>=2.0.4
+pyyaml
